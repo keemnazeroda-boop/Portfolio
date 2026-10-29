@@ -288,8 +288,8 @@ h6 { font-size: 16px; }
 	font-weight: 500;
 	transition: all .3s ease;
 }
-.grax_tm_topbar .menu ul li.current a{color: #e54b4b;}
-.grax_tm_topbar .menu ul li a:hover{color: #e54b4b;}
+.grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
 .grax_tm_topbar.animate .menu ul li a{color: #000;}
 
 /*---------------------------------------------------*/
@@ -744,8 +744,8 @@ h6 { font-size: 16px; }
 	text-decoration: none;
     color: #fff;
     display: inline-block;
-    background-color: #e54b4b;
-	border: 2px solid #e54b4b;
+    background-color: #3471F8;
+	border: 2px solid #3471F8;
     padding: 10px 40px;
     border-radius: 5px;
 	
@@ -815,7 +815,7 @@ h6 { font-size: 16px; }
 }
 .progress_inner .background .bar_in{
 	height:100%;
-	background:#e54b4b;
+	background:#3471F8;
 	width:0px;
 	overflow:hidden;
 	border-radius: 5px;
@@ -845,7 +845,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 }
-.grax_tm_title_holder span{color: #e54b4b;	}
+.grax_tm_title_holder span{color: #3471F8;	}
 .grax_tm_title_holder h3{
 	text-transform: uppercase;
 	font-weight: 700;
@@ -1197,7 +1197,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .list_inner .image:hover .main{transform: scale(1.1) rotate(3deg);}
+.grax_tm_news .news_list ul li:not(.keypo-website-card):not(:nth-child(2)) .list_inner .image:hover .main{transform: scale(1.1) rotate(3deg);}
 .grax_tm_news .news_list ul li .details{
 	width: 100%;
 	float: left;
@@ -1218,7 +1218,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .details .title a:hover{color: #e54b4b;}
+.grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
 .grax_tm_news .news_list ul li .details .date{
 	text-transform: uppercase;
 	font-family: "Poppins";
@@ -1236,7 +1236,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.grax_tm_news .news_list ul li .details .date a:hover{color: #e54b4b;}
+.grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
 .grax_tm_news .news_list ul li .details .date span{
 	position: relative;
 	margin-left: 11px;
@@ -1340,7 +1340,7 @@ body.modal{
 .grax_tm_modalbox_news .description blockquote{
 	font-style: italic;
 	color: #000;
-	border-left: 2px solid #e54b4b;
+	border-left: 2px solid #3471F8;
 	padding-left: 20px;
 	margin-bottom: 15px;
 }
@@ -1385,7 +1385,7 @@ body.modal{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
-.grax_tm_modalbox_news .date a:hover{color: #e54b4b;}
+.grax_tm_modalbox_news .date a:hover{color: #3471F8;}
 .grax_tm_modalbox_news .date span{
 	position: relative;
     margin-left: 11px;
@@ -1591,14 +1591,14 @@ body.modal{
 	border: 1px solid rgba(0,0,0,.5);
 } 
 .grax_tm_contact .empty_notice{
-	color: #F52225;
+	color: #3471F8;
 	margin-bottom: 7px;
 	display: none;
 	text-align: left;
 	font-weight: 500;
 }
 .grax_tm_contact .contact_error{
-	color: #F52225;
+	color: #3471F8;
 	text-align: left;
 	font-weight: 500;
 }
@@ -2238,7 +2238,7 @@ body.dark .grax_tm_settings .cursor li .svg,
 .grax_tm_intro_fixed_price .anim {text-decoration: none;
 	color: #fff;
     font-family: "Montserrat";
-    background-color: #e54b4b;
+    background-color: #3471F8;
     position: fixed;
     font-size: 22px;
     text-align: center;
@@ -2411,4 +2411,68 @@ body.dark .grax_tm_settings .cursor li .svg,
 html,
 body {
     scroll-behavior: auto !important;
+}
+
+
+/* =========================================================
+   KEYPO WEBSITE — CROSSFADE + SIMULTANEOUS ZOOM
+   Default image: img/news/1.jpg
+   Hover image:   img/news/1-1.jpg
+========================================================= */
+.grax_tm_news .news_list ul li.keypo-website-card .image {
+    isolation: isolate;
+}
+
+.grax_tm_news .news_list ul li.keypo-website-card .image .main {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1) translateZ(0);
+    transition: opacity .4s ease, transform .45s ease;
+}
+
+.grax_tm_news .news_list ul li.keypo-website-card .image .hover-image {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background-image: url("../img/news/1-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity .4s ease, transform .45s ease;
+    pointer-events: none;
+}
+
+.grax_tm_news .news_list ul li.keypo-website-card .image:hover .main {
+    opacity: 0;
+    transform: scale(1.1) translateZ(0);
+}
+
+.grax_tm_news .news_list ul li.keypo-website-card .image:hover .hover-image {
+    opacity: 1;
+    transform: scale(1.1) translateZ(0);
+}
+
+/* =========================================================
+   APP PROTOTYPE — ZOOM ONLY
+   The second card remains on its original image.
+========================================================= */
+.grax_tm_news .news_list ul li:nth-child(2) .image .main {
+    transform: scale(1) translateZ(0);
+    transition: transform .45s ease;
+}
+
+.grax_tm_news .news_list ul li:nth-child(2) .image:hover .main {
+    transform: scale(1.1) translateZ(0) !important;
+    filter: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .grax_tm_news .news_list ul li.keypo-website-card .image .main,
+    .grax_tm_news .news_list ul li.keypo-website-card .image .hover-image,
+    .grax_tm_news .news_list ul li:nth-child(2) .image .main {
+        transition: none;
+    }
 }

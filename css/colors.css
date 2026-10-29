@@ -1,31 +1,31 @@
 @charset "utf-8";
 
 
-.grax_tm_settings .colors li a.blue{background-color: #4169e1;}
+.grax_tm_settings .colors li a.blue{background-color: #3471F8;}
 .grax_tm_settings .colors li a.green{background-color: #66B95C;}
-.grax_tm_settings .colors li a.brown{background-color: #ff9800;}
-.grax_tm_settings .colors li a.pink{background-color: #ff5e94;}
-.grax_tm_settings .colors li a.orange{background-color: #fa5b0f;}
+.grax_tm_settings .colors li a.brown{background-color: #3471F8;}
+.grax_tm_settings .colors li a.pink{background-color: #3471F8;}
+.grax_tm_settings .colors li a.orange{background-color: #3471F8;}
 .grax_tm_settings .colors li a.black{background-color: #333;}
 .grax_tm_settings .colors li a.white{background-color: #e5e5e5;}
 .grax_tm_settings .colors li a.purple{background-color: #9200ee;}
 .grax_tm_settings .colors li a.sky{background-color: #00D4BD;}
 .grax_tm_settings .colors li a.cadetBlue{background-color: #5e9e9f;}
-.grax_tm_settings .colors li a.crimson{background-color: #e54b4b;}
+.grax_tm_settings .colors li a.crimson{background-color: #3471F8;}
 .grax_tm_settings .colors li a.olive{background-color: #666d41;}
-.grax_tm_settings .colors li a.red{background-color: #fe0000;}
+.grax_tm_settings .colors li a.red{background-color: #3471F8;}
 
 
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_topbar .menu ul li.current a{color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_topbar .menu ul li a:hover{color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_title_holder span{color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_button a{background-color: #4169e1;border-color:#4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_news .news_list ul li .details .title a:hover{color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .grax_tm_news .news_list ul li .details .date a:hover{color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .cursor-inner.cursor-hover{background-color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .cursor-outer{border-color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .cursor-inner{background-color: #4169e1;}
-.grax_tm_all_wrap[data-color="blue"] .progress_inner .background .bar_in{background: #4169e1;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="blue"] .progress_inner .background .bar_in{background: #3471F8;}
 
 
 .grax_tm_all_wrap[data-color="green"] .grax_tm_topbar .menu ul li.current a{color: #66B95C;}
@@ -40,40 +40,40 @@
 .grax_tm_all_wrap[data-color="green"] .progress_inner .background .bar_in{background: #66B95C;}
 
 
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_topbar .menu ul li.current a{color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_topbar .menu ul li a:hover{color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_title_holder span{color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_button a{background-color: #ff9800;border-color:#ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_news .news_list ul li .details .title a:hover{color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .grax_tm_news .news_list ul li .details .date a:hover{color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .cursor-inner.cursor-hover{background-color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .cursor-outer{border-color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .cursor-inner{background-color: #ff9800;}
-.grax_tm_all_wrap[data-color="brown"] .progress_inner .background .bar_in{background: #ff9800;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="brown"] .progress_inner .background .bar_in{background: #3471F8;}
 
 
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_topbar .menu ul li.current a{color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_topbar .menu ul li a:hover{color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_title_holder span{color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_button a{background-color: #ff5e94;border-color:#ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_news .news_list ul li .details .title a:hover{color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .grax_tm_news .news_list ul li .details .date a:hover{color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .cursor-inner.cursor-hover{background-color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .cursor-outer{border-color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .cursor-inner{background-color: #ff5e94;}
-.grax_tm_all_wrap[data-color="pink"] .progress_inner .background .bar_in{background: #ff5e94;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="pink"] .progress_inner .background .bar_in{background: #3471F8;}
 
 
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_topbar .menu ul li.current a{color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_topbar .menu ul li a:hover{color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_title_holder span{color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_button a{background-color: #fa5b0f;border-color:#fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_news .news_list ul li .details .title a:hover{color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .grax_tm_news .news_list ul li .details .date a:hover{color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .cursor-inner.cursor-hover{background-color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .cursor-outer{border-color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .cursor-inner{background-color: #fa5b0f;}
-.grax_tm_all_wrap[data-color="orange"] .progress_inner .background .bar_in{background: #fa5b0f;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="orange"] .progress_inner .background .bar_in{background: #3471F8;}
 
 
 .grax_tm_all_wrap[data-color="black"] .grax_tm_topbar .menu ul li.current a{color: #000;}
@@ -148,26 +148,26 @@
 .grax_tm_all_wrap[data-color="olive"] .progress_inner .background .bar_in{background: #666d41;}
 
 
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_topbar .menu ul li.current a{color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_topbar .menu ul li a:hover{color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_title_holder span{color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_button a{background-color: #e54b4b;border-color:#e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_news .news_list ul li .details .title a:hover{color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .grax_tm_news .news_list ul li .details .date a:hover{color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .cursor-inner.cursor-hover{background-color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .cursor-outer{border-color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .cursor-inner{background-color: #e54b4b;}
-.grax_tm_all_wrap[data-color="crimson"] .progress_inner .background .bar_in{background: #e54b4b;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="crimson"] .progress_inner .background .bar_in{background: #3471F8;}
 
 
-.grax_tm_all_wrap[data-color="red"] .grax_tm_topbar .menu ul li.current a{color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .grax_tm_topbar .menu ul li a:hover{color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .grax_tm_title_holder span{color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .grax_tm_button a{background-color: #fe0000;border-color:#fe0000;}
-.grax_tm_all_wrap[data-color="red"] .grax_tm_news .news_list ul li .details .title a:hover{color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .grax_tm_news .news_list ul li .details .date a:hover{color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .cursor-inner.cursor-hover{background-color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .cursor-outer{border-color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .cursor-inner{background-color: #fe0000;}
-.grax_tm_all_wrap[data-color="red"] .progress_inner .background .bar_in{background: #fe0000;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_topbar .menu ul li.current a{color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_topbar .menu ul li a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_title_holder span{color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_button a{background-color: #3471F8;border-color:#3471F8;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_news .news_list ul li .details .title a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .grax_tm_news .news_list ul li .details .date a:hover{color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .cursor-inner.cursor-hover{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .cursor-outer{border-color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .cursor-inner{background-color: #3471F8;}
+.grax_tm_all_wrap[data-color="red"] .progress_inner .background .bar_in{background: #3471F8;}
 
