@@ -1,29 +1,43 @@
+
 @charset "utf-8";
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* 페이지 이미지 */
 div img {
-  margin: 0 auto;
   display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
+/* 상단 이동 버튼 */
 .fixed {
   position: fixed;
-  right: 100px;
+  right: 40px;
   bottom: 100px;
+  z-index: 100;
 }
 
 .fixed:hover {
   opacity: 0.8;
 }
 
+/* 뒤로가기 버튼 */
 .fixed2 {
   position: fixed;
-  right: 100px;
+  right: 40px;
   bottom: 40px;
+  z-index: 100;
 }
 
 .fixed2:hover {
