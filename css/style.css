@@ -1059,10 +1059,13 @@ h6 { font-size: 16px; }
 	position: relative;
 	z-index: 3;
 }
-.grax_tm_talk .text{padding-right: 20px;}
-.grax_tm_talk .text h3{
-	font-weight: 600;
-	color: #fff;
+.grax_tm_talk .button a{
+    color: #3471F8;
+    text-decoration: none;
+    font-family: "Poppins";
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
 }
 .grax_tm_talk .text h3 span{position: relative;}
 .grax_tm_talk .text h3 span:before{
